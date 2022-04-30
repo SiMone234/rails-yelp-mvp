@@ -1,2 +1,10 @@
 <h1>Restaurants#all</h1>
 <p>Find me in app/views/restaurants/all.html.erb</p>
+
+
+<ul>
+  <% @restaurants.each do |r| %>
+    <li><%= r.name %> <%= r.category %>
+    <% end %>
+</li>
+</ul>

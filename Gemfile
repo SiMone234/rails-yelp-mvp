@@ -63,3 +63,8 @@ end
 
 gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
+
+#front end gems
+gem 'autoprefixer-rails'
+gem 'font-awesome-sass', '~> 5.6.1'
+gem 'simple_form', github: 'heartcombo/simple_form'
